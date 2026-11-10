@@ -3,22 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shopping styling</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"  href="fontawesome/fontawesome/css/all.css">
+    
 </head>
     <body>
-        <script>
-        let password ="12345"
-        let input = prompt("Enter your password")
-        if (input === password){
-            alert("login successful")
-        }
-        else{
-            alert("wrong password. try again")
-        }
-    </script>
-
         <div class="header">
             <nav>
                 <span>styles</span>
@@ -26,8 +15,6 @@
                 <span>clothes</span>
                 <span>shoes</span>
                 <span>wigs</span>
-                <span>Bags</span>
-                <span>Glasses</span>
                 <span>about</span>
                 <span>contact</span>
                 <span><input type="text" placeholder="search product..."></span>
@@ -39,8 +26,8 @@
             <section class="home">
                 <div class="home-text">
                     <h1>Elevate your <span>style!</span></h1>
-                <p class="text">Discover premium clothes, stylish shoes and luxury wigs crafted to elevate your everyday look.</p>
-                <p class="text">Stay ahead of trends, express yourself, and step out looking bold, beautiful and unstoppable.</p>
+                <!--div>p class="text">Discover premium clothes, stylish shoes and luxury wigs crafted to elevate your everyday look.</p>
+                <p class="text">Stay ahead of trends, express yourself, and step out looking bold, beautiful and unstoppable.</p >-->
                 <button class="btn-home">Shop Now!</button>
                 </div>
                  <div class="input-info">
@@ -49,17 +36,32 @@
            <p>create an account to start shopping</p>
             <hr>
             <h2>sign up </h2>
-            <input type="text" name="username" pattern="{A-Z,a-z}" title="only the lowercase and the uppercase allowed" placeholder="username" required> <br>
-            <input type="email" name="email" placeholder="email" required> <br> 
-            <input type="password" name="password" placeholder="password" title="must be from 10 to 20 characters with a symbol" required> <br>
-            <input type="password" name="password" placeholder="confirm password" title="must be the correct"required> <br> 
-            <input type="date" class="input"> <br>
+            FUll name
+            <input type="text" name="username" pattern="{A-Z,a-z}" title="only the lowercase and the uppercase allowed" placeholder="John" required>
+            <br>
+             <br>
+             email
+            <input type="email" name="email" placeholder="example@gmail.com" required>
+            <br>
+             <br> 
+             password
+            <input type="password" name="password"  placeholder="••••••••" title="must be from 10 to 20 characters with a symbol" required>
+            <br>
+             <br>
+             confirm password
+            <input type="password" name="password" placeholder="••••••••" title="must be the correct"required>
+            <br>
+             <br> 
+             date
+            <input type="date" class="input">
+            <br>
+             <br>
              <h3>Gender</h3>
              <label>male
-            <input type="checkbox">
+            <input type="checkbox" >
             </label>
             <label>female 
-            <input type="checkbox">
+            <input type="checkbox" >
             </label><br>
             <button type ="submit" class="btn-input">submit</button>
             <button type="reset" class="btn-row" aria-placeholder="reset" >reset</button>
@@ -79,13 +81,14 @@
         </div>
          <div class="work">
         <div class="guy">
+            <li><a href="#"><span class="fas fa-music"></span> music</a></li>
             <li><a href="#"><span class="fab fa-facebook"></span> facebook</a></li>
             <li><a href="#"><span class="fa-brands fa-instagram"></span>instagram</a></li>
             <li><a href="#"><span class="fab fa-twitter"></span> Twitter</a></li>
         </div>
         <div class="buy">
             <li><span class="fas fa-map-marker-alt"></span>current location<br>African new south</li>
-            <li><a href="#"><span class="fas fa-phone"></span>contact us :08101016407</a></li>
+            <li><a href="#"><span class="fas fa-phone"></span>contact us :+234 8101016407</a></li>
         </div>
     </div>
 
